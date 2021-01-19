@@ -96,6 +96,12 @@ body <- dashboardBody(
                                 "Speechiness" = "spe",
                                 "Tempo" = "tmp",
                                 "Valence" = "val"))),
+              box(width = 2,
+                  sliderInput("alpha",
+                          "Outlier's transparency",
+                          min = 0,
+                          max = 1,
+                          value = 0.3)),
               box(width = 12, title = 'Boxplots', solidHeader = TRUE, status = 'info', plotOutput("plot5", height = 500))
             )),
     # Fourth tab content
