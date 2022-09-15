@@ -1,3 +1,1 @@
-# Songs
-
-Data Visualisation project using Shinyapp webpage.
+Data Visualisation project of songs using Shinyapp webpage.
